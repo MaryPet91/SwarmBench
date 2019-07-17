@@ -1,0 +1,50 @@
+never safety {    /* !([] (((pc[0]!=critical)) || ((pc[1]!=critical)))) */
+T0_init:
+	do
+	:: atomic { (! ((((pc[0]!=critical)) || ((pc[1]!=critical))))) -> assert(!(! ((((pc[0]!=critical)) || ((pc[1]!=critical)))))) }
+	:: (1) -> goto T0_init
+	od;
+accept_all:
+	skip
+}
+never liveness {    /* !((! ((! ([] (<> (((pc[0]==request)) && ((sem==1)))))) || ([] (<> ((pc[0]==critical)))))) || ([] ((! ((pc[0]==request))) || (<> ((pc[0]==critical)))))) */
+T0_init:
+	do
+	:: (! ((! ((pc[0]==request)))) && ! (((pc[0]==critical)))) -> goto T0_S121
+	:: (! ((! ((pc[0]==request)))) && ! ((((pc[0]==request)) && ((sem==1)))) && ! (((pc[0]==critical)))) -> goto accept_S183
+	:: (! ((! ((pc[0]==request)))) && ! (((pc[0]==critical)))) -> goto T0_S198
+	:: (1) -> goto T0_S133
+	:: (! ((((pc[0]==request)) && ((sem==1))))) -> goto T0_S187
+	:: (1) -> goto T0_S178
+	od;
+accept_S183:
+	do
+	:: (! ((((pc[0]==request)) && ((sem==1)))) && ! (((pc[0]==critical)))) -> goto accept_S183
+	od;
+T0_S121:
+	do
+	:: (! (((pc[0]==critical)))) -> goto T0_S121
+	od;
+T0_S133:
+	do
+	:: (! ((! ((pc[0]==request)))) && ! (((pc[0]==critical)))) -> goto T0_S121
+	:: (1) -> goto T0_S133
+	od;
+T0_S187:
+	do
+	:: (! ((! ((pc[0]==request)))) && ! ((((pc[0]==request)) && ((sem==1)))) && ! (((pc[0]==critical)))) -> goto accept_S183
+	:: (! ((((pc[0]==request)) && ((sem==1))))) -> goto T0_S187
+	od;
+T0_S178:
+	do
+	:: (! ((! ((pc[0]==request)))) && ! ((((pc[0]==request)) && ((sem==1)))) && ! (((pc[0]==critical)))) -> goto accept_S183
+	:: (! ((((pc[0]==request)) && ((sem==1))))) -> goto T0_S187
+	:: (1) -> goto T0_S178
+	:: (! ((! ((pc[0]==request)))) && ! (((pc[0]==critical)))) -> goto T0_S198
+	od;
+T0_S198:
+	do
+	:: (! ((((pc[0]==request)) && ((sem==1)))) && ! (((pc[0]==critical)))) -> goto accept_S183
+	:: (! (((pc[0]==critical)))) -> goto T0_S198
+	od;
+}

@@ -1,0 +1,25 @@
+#!/bin/sh
+./pan1 -k1 -w29 -m10000 -h81 -RS89172 	# 25769.8 sec (+ 1431.7 s, 64.0 MB)
+if [ -f swarm_times_up ] ; then exit 1; fi
+./pan1 -k1 -w28 -m10000 -h85 -RS157400 	# 42233.8 sec (+ 715.8 s, 32.0 MB)
+if [ -f swarm_times_up ] ; then exit 1; fi
+./pan1 -k1 -w27 -m10000 -h80 -RS96663 	# 50108.0 sec (+ 357.9 s, 16.0 MB)
+if [ -f swarm_times_up ] ; then exit 1; fi
+./pan1 -k1 -w26 -m10000 -h24 -RS212091 	# 53866.0 sec (+ 179.0 s, 8.0 MB)
+if [ -f swarm_times_up ] ; then exit 1; fi
+./pan1 -k1 -w25 -m10000 -h58 -RS135112 	# 55745.1 sec (+ 89.5 s, 4.0 MB)
+if [ -f swarm_times_up ] ; then exit 1; fi
+./pan1 -k1 -w24 -m10000 -h14 -RS58120 	# 56684.6 sec (+ 44.7 s, 2.0 MB)
+if [ -f swarm_times_up ] ; then exit 1; fi
+./pan1 -k1 -w23 -m10000 -h92 -RS32973 	# 57154.4 sec (+ 22.4 s, 1.0 MB)
+if [ -f swarm_times_up ] ; then exit 1; fi
+./pan1 -k1 -w22 -m10000 -h3 -RS22387 	# 57378.1 sec (+ 11.2 s, 0.5 MB)
+if [ -f swarm_times_up ] ; then exit 1; fi
+./pan1 -k1 -w21 -m10000 -h12 -RS15677 	# 57489.9 sec (+ 5.6 s, 0.2 MB)
+if [ -f swarm_times_up ] ; then exit 1; fi
+./pan1 -k1 -w20 -m10000 -h71 -RS25611 	# 57545.9 sec (+ 2.8 s, 0.1 MB)
+if [ -f swarm_times_up ] ; then exit 1; fi
+./pan1 -k1 -w19 -m10000 -h58 -RS159342 	# 57573.8 sec (+ 1.4 s, 0.1 MB)
+if [ -f swarm_times_up ] ; then exit 1; fi
+date > swarm_done_s12
+exit 1

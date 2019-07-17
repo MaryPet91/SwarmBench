@@ -1,0 +1,4 @@
+1. Counterexample generation was disabled for competition
+   FIX: cbmc is called with additional options "--stop-on-fail  --trace" if "--cex" option is given
+        modified feeder.py for this
+

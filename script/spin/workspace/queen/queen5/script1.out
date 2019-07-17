@@ -1,0 +1,402 @@
+pan:1: spin_heap limit reached (at depth 3)
+pan: wrote queen5.pml_pan2_7597.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 3, errors: 1
+        4 states, stored
+        0 states, matched
+        4 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 6.71089e+07 (best if > 100.)
+
+bits set per state: 2 (-k2)
+random seed used: 49838
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.008	memory used for bit stack
+    0.069	memory used for DFS stack (-m1000)
+   32.195	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: spin_heap limit reached (at depth 3)
+pan: wrote queen5.pml_pan4_7599.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 3, errors: 1
+        4 states, stored
+        0 states, matched
+        4 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 6.71089e+07 (best if > 100.)
+
+bits set per state: 4 (-k4)
+random seed used: 227122
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.008	memory used for bit stack
+    0.069	memory used for DFS stack (-m1000)
+   32.195	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: spin_heap limit reached (at depth 3)
+pan: wrote queen5.pml_pan2_7601.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 3, errors: 1
+        4 states, stored
+        0 states, matched
+        4 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 6.71089e+07 (best if > 100.)
+
+bits set per state: 2 (-k2)
+random seed used: 33101
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.001	memory used for bit stack
+    0.007	memory used for DFS stack (-m100)
+   32.195	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: spin_heap limit reached (at depth 3)
+pan: wrote queen5.pml_pan4_7603.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 3, errors: 1
+        4 states, stored
+        0 states, matched
+        4 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 6.71089e+07 (best if > 100.)
+
+bits set per state: 4 (-k4)
+random seed used: 34359
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.001	memory used for bit stack
+    0.007	memory used for DFS stack (-m100)
+   32.195	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: spin_heap limit reached (at depth 3)
+pan: wrote queen5.pml_pan2_7605.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 3, errors: 1
+        4 states, stored
+        0 states, matched
+        4 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 3.35544e+07 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 138508
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+   16.000	memory used for hash array (-w27)
+    0.008	memory used for bit stack
+    0.069	memory used for DFS stack (-m1000)
+   16.195	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: spin_heap limit reached (at depth 3)
+pan: wrote queen5.pml_pan4_7606.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 3, errors: 1
+        4 states, stored
+        0 states, matched
+        4 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 8.38861e+06 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 72130
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+    4.000	memory used for hash array (-w25)
+    0.008	memory used for bit stack
+    0.069	memory used for DFS stack (-m1000)
+    4.195	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: spin_heap limit reached (at depth 3)
+pan: wrote queen5.pml_pan2_7607.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 3, errors: 1
+        4 states, stored
+        0 states, matched
+        4 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 2.09715e+06 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 42556
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+    1.000	memory used for hash array (-w23)
+    0.008	memory used for bit stack
+    0.069	memory used for DFS stack (-m1000)
+    1.195	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: spin_heap limit reached (at depth 3)
+pan: wrote queen5.pml_pan4_7608.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 3, errors: 1
+        4 states, stored
+        0 states, matched
+        4 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 1.04858e+06 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 135575
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.500	memory used for hash array (-w22)
+    0.008	memory used for bit stack
+    0.069	memory used for DFS stack (-m1000)
+    0.695	total actual memory usage
+
+
+
+pan: elapsed time 0.01 seconds
+pan:1: spin_heap limit reached (at depth 3)
+pan: wrote queen5.pml_pan2_7610.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 3, errors: 1
+        4 states, stored
+        0 states, matched
+        4 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 524288 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 23101
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.250	memory used for hash array (-w21)
+    0.008	memory used for bit stack
+    0.069	memory used for DFS stack (-m1000)
+    0.445	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: spin_heap limit reached (at depth 3)
+pan: wrote queen5.pml_pan4_7611.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 3, errors: 1
+        4 states, stored
+        0 states, matched
+        4 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 262144 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 103058
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.125	memory used for hash array (-w20)
+    0.008	memory used for bit stack
+    0.069	memory used for DFS stack (-m1000)
+    0.320	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: spin_heap limit reached (at depth 3)
+pan: wrote queen5.pml_pan2_7612.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 3, errors: 1
+        4 states, stored
+        0 states, matched
+        4 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 131072 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 24948
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.062	memory used for hash array (-w19)
+    0.008	memory used for bit stack
+    0.069	memory used for DFS stack (-m1000)
+    0.195	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds

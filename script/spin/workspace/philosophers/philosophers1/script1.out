@@ -1,0 +1,402 @@
+pan:1: invalid end state (at depth 40)
+pan: wrote philosophers1.pml_pan2_13015.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 20 byte, depth reached 41, errors: 1
+       43 states, stored
+       15 states, matched
+       58 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 6.24269e+06 (best if > 100.)
+
+bits set per state: 2 (-k2)
+random seed used: 49838
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   32.980	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: invalid end state (at depth 40)
+pan: wrote philosophers1.pml_pan4_13017.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 20 byte, depth reached 41, errors: 1
+       42 states, stored
+        9 states, matched
+       51 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 6.39132e+06 (best if > 100.)
+
+bits set per state: 4 (-k4)
+random seed used: 227122
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   32.980	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: invalid end state (at depth 7)
+pan: wrote philosophers1.pml_pan2_13018.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 20 byte, depth reached 8, errors: 1
+        9 states, stored
+        0 states, matched
+        9 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 2.98262e+07 (best if > 100.)
+
+bits set per state: 2 (-k2)
+random seed used: 33101
+
+Stats on memory usage (in Megabytes):
+    0.000	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.001	memory used for bit stack
+    0.009	memory used for DFS stack (-m128)
+   32.195	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: invalid end state (at depth 18)
+pan: wrote philosophers1.pml_pan4_13020.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 20 byte, depth reached 19, errors: 1
+       20 states, stored
+        1 states, matched
+       21 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 1.34218e+07 (best if > 100.)
+
+bits set per state: 4 (-k4)
+random seed used: 34359
+
+Stats on memory usage (in Megabytes):
+    0.001	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.001	memory used for bit stack
+    0.009	memory used for DFS stack (-m128)
+   32.195	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: invalid end state (at depth 18)
+pan: wrote philosophers1.pml_pan2_13022.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 20 byte, depth reached 19, errors: 1
+       20 states, stored
+        0 states, matched
+       20 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 6.71089e+06 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 138508
+
+Stats on memory usage (in Megabytes):
+    0.001	equivalent memory usage for states (stored*(State-vector + overhead))
+   16.000	memory used for hash array (-w27)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   16.980	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: invalid end state (at depth 7)
+pan: wrote philosophers1.pml_pan4_13023.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 20 byte, depth reached 8, errors: 1
+        9 states, stored
+        0 states, matched
+        9 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 3.72827e+06 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 72130
+
+Stats on memory usage (in Megabytes):
+    0.000	equivalent memory usage for states (stored*(State-vector + overhead))
+    4.000	memory used for hash array (-w25)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    4.980	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: invalid end state (at depth 18)
+pan: wrote philosophers1.pml_pan2_13025.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 20 byte, depth reached 19, errors: 1
+       20 states, stored
+        0 states, matched
+       20 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 419430 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 42556
+
+Stats on memory usage (in Megabytes):
+    0.001	equivalent memory usage for states (stored*(State-vector + overhead))
+    1.000	memory used for hash array (-w23)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.980	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: invalid end state (at depth 18)
+pan: wrote philosophers1.pml_pan4_13026.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 20 byte, depth reached 37, errors: 1
+       46 states, stored
+       30 states, matched
+       76 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 91180.5 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 135575
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.500	memory used for hash array (-w22)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.480	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: invalid end state (at depth 7)
+pan: wrote philosophers1.pml_pan2_13027.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 20 byte, depth reached 8, errors: 1
+        9 states, stored
+        0 states, matched
+        9 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 233017 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 23101
+
+Stats on memory usage (in Megabytes):
+    0.000	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.250	memory used for hash array (-w21)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.230	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: invalid end state (at depth 40)
+pan: wrote philosophers1.pml_pan4_13028.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 20 byte, depth reached 41, errors: 1
+       42 states, stored
+       12 states, matched
+       54 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 24966.1 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 103058
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.125	memory used for hash array (-w20)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.105	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: invalid end state (at depth 18)
+pan: wrote philosophers1.pml_pan2_13029.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 20 byte, depth reached 35, errors: 1
+       56 states, stored
+       33 states, matched
+       89 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 9362.29 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 24948
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.062	memory used for hash array (-w19)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    0.980	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds

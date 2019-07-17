@@ -1,0 +1,392 @@
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 274, errors: 0
+      393 states, stored
+     1100 states, matched
+     1493 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 683042 (best if > 100.)
+
+bits set per state: 3 (-k3)
+random seed used: 65802
+
+Stats on memory usage (in Megabytes):
+    0.030	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   33.077	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 326, errors: 0
+      393 states, stored
+     1100 states, matched
+     1493 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 683042 (best if > 100.)
+
+bits set per state: 2 (-k2)
+
+Stats on memory usage (in Megabytes):
+    0.030	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.076	memory used for bit stack
+    0.534	memory used for DFS stack (-m10000)
+   32.925	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+error: max search depth too small
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 127, errors: 0
+      332 states, stored
+      897 states, matched
+     1229 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 808541 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 26630
+
+Stats on memory usage (in Megabytes):
+    0.025	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.001	memory used for bit stack
+    0.009	memory used for DFS stack (-m128)
+   32.195	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+error: max search depth too small
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 127, errors: 0
+      324 states, stored
+      890 states, matched
+     1214 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 828504 (best if > 100.)
+
+bits set per state: 5 (-k5)
+
+Stats on memory usage (in Megabytes):
+    0.025	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.001	memory used for bit stack
+    0.007	memory used for DFS stack (-m128)
+   32.195	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 283, errors: 0
+      393 states, stored
+     1100 states, matched
+     1493 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 341521 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 21238
+
+Stats on memory usage (in Megabytes):
+    0.030	equivalent memory usage for states (stored*(State-vector + overhead))
+   16.000	memory used for hash array (-w27)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   17.077	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 326, errors: 0
+      393 states, stored
+     1100 states, matched
+     1493 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 170760 (best if > 100.)
+
+bits set per state: 1 (-k1)
+
+Stats on memory usage (in Megabytes):
+    0.030	equivalent memory usage for states (stored*(State-vector + overhead))
+    8.000	memory used for hash array (-w26)
+    0.076	memory used for bit stack
+    0.534	memory used for DFS stack (-m10000)
+    8.925	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 282, errors: 0
+      393 states, stored
+     1100 states, matched
+     1493 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 42690.1 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 76016
+
+Stats on memory usage (in Megabytes):
+    0.030	equivalent memory usage for states (stored*(State-vector + overhead))
+    2.000	memory used for hash array (-w24)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    3.077	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 326, errors: 0
+      393 states, stored
+     1100 states, matched
+     1493 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 21345.1 (best if > 100.)
+
+bits set per state: 1 (-k1)
+
+Stats on memory usage (in Megabytes):
+    0.030	equivalent memory usage for states (stored*(State-vector + overhead))
+    1.000	memory used for hash array (-w23)
+    0.076	memory used for bit stack
+    0.534	memory used for DFS stack (-m10000)
+    1.925	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 282, errors: 0
+      393 states, stored
+     1100 states, matched
+     1493 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 10672.5 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 24359
+
+Stats on memory usage (in Megabytes):
+    0.030	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.500	memory used for hash array (-w22)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.577	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 326, errors: 0
+      393 states, stored
+     1100 states, matched
+     1493 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 5336.26 (best if > 100.)
+
+bits set per state: 1 (-k1)
+
+Stats on memory usage (in Megabytes):
+    0.030	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.250	memory used for hash array (-w21)
+    0.076	memory used for bit stack
+    0.534	memory used for DFS stack (-m10000)
+    1.175	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 258, errors: 0
+      393 states, stored
+     1100 states, matched
+     1493 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 2668.13 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 18058
+
+Stats on memory usage (in Megabytes):
+    0.030	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.125	memory used for hash array (-w20)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.202	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 326, errors: 0
+      393 states, stored
+     1100 states, matched
+     1493 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 1334.07 (best if > 100.)
+
+bits set per state: 1 (-k1)
+
+Stats on memory usage (in Megabytes):
+    0.030	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.062	memory used for hash array (-w19)
+    0.076	memory used for bit stack
+    0.534	memory used for DFS stack (-m10000)
+    0.925	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds

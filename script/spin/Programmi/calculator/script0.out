@@ -1,0 +1,435 @@
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 256 byte, depth reached 60, errors: 0
+       52 states, stored
+        0 states, matched
+       52 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 5.16222e+06 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 2744
+
+Stats on memory usage (in Megabytes):
+    0.014	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   32.980	total actual memory usage
+
+
+unreached in proctype calc
+	calculator.pml:23, state 16, "assert(0)"
+	(1 of 23 states)
+unreached in init
+	(0 of 13 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 256 byte, depth reached 60, errors: 0
+       52 states, stored
+        0 states, matched
+       52 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 5.16222e+06 (best if > 100.)
+
+bits set per state: 3 (-k3)
+random seed used: 65802
+
+Stats on memory usage (in Megabytes):
+    0.014	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   32.980	total actual memory usage
+
+
+unreached in proctype calc
+	calculator.pml:23, state 16, "assert(0)"
+	(1 of 23 states)
+unreached in init
+	(0 of 13 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 256 byte, depth reached 60, errors: 0
+       52 states, stored
+        0 states, matched
+       52 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 5.16222e+06 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 184337
+
+Stats on memory usage (in Megabytes):
+    0.014	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.001	memory used for bit stack
+    0.009	memory used for DFS stack (-m128)
+   32.195	total actual memory usage
+
+
+unreached in proctype calc
+	calculator.pml:23, state 16, "assert(0)"
+	(1 of 23 states)
+unreached in init
+	(0 of 13 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 256 byte, depth reached 60, errors: 0
+       52 states, stored
+        0 states, matched
+       52 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 5.16222e+06 (best if > 100.)
+
+bits set per state: 3 (-k3)
+random seed used: 26630
+
+Stats on memory usage (in Megabytes):
+    0.014	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.001	memory used for bit stack
+    0.009	memory used for DFS stack (-m128)
+   32.195	total actual memory usage
+
+
+unreached in proctype calc
+	calculator.pml:23, state 16, "assert(0)"
+	(1 of 23 states)
+unreached in init
+	(0 of 13 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 256 byte, depth reached 60, errors: 0
+       52 states, stored
+        0 states, matched
+       52 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 5.16222e+06 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 181058
+
+Stats on memory usage (in Megabytes):
+    0.014	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   32.980	total actual memory usage
+
+
+unreached in proctype calc
+	calculator.pml:23, state 16, "assert(0)"
+	(1 of 23 states)
+unreached in init
+	(0 of 13 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 256 byte, depth reached 60, errors: 0
+       52 states, stored
+        0 states, matched
+       52 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 1.29056e+06 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 21238
+
+Stats on memory usage (in Megabytes):
+    0.014	equivalent memory usage for states (stored*(State-vector + overhead))
+    8.000	memory used for hash array (-w26)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    8.980	total actual memory usage
+
+
+unreached in proctype calc
+	calculator.pml:23, state 16, "assert(0)"
+	(1 of 23 states)
+unreached in init
+	(0 of 13 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 256 byte, depth reached 60, errors: 0
+       52 states, stored
+        0 states, matched
+       52 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 322639 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 89171
+
+Stats on memory usage (in Megabytes):
+    0.014	equivalent memory usage for states (stored*(State-vector + overhead))
+    2.000	memory used for hash array (-w24)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    2.980	total actual memory usage
+
+
+unreached in proctype calc
+	calculator.pml:23, state 16, "assert(0)"
+	(1 of 23 states)
+unreached in init
+	(0 of 13 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 256 byte, depth reached 60, errors: 0
+       52 states, stored
+        0 states, matched
+       52 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 161319 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 76016
+
+Stats on memory usage (in Megabytes):
+    0.014	equivalent memory usage for states (stored*(State-vector + overhead))
+    1.000	memory used for hash array (-w23)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.980	total actual memory usage
+
+
+unreached in proctype calc
+	calculator.pml:23, state 16, "assert(0)"
+	(1 of 23 states)
+unreached in init
+	(0 of 13 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 256 byte, depth reached 60, errors: 0
+       52 states, stored
+        0 states, matched
+       52 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 80659.7 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 35317
+
+Stats on memory usage (in Megabytes):
+    0.014	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.500	memory used for hash array (-w22)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.480	total actual memory usage
+
+
+unreached in proctype calc
+	calculator.pml:23, state 16, "assert(0)"
+	(1 of 23 states)
+unreached in init
+	(0 of 13 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 256 byte, depth reached 60, errors: 0
+       52 states, stored
+        0 states, matched
+       52 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 40329.8 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 24359
+
+Stats on memory usage (in Megabytes):
+    0.014	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.250	memory used for hash array (-w21)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.230	total actual memory usage
+
+
+unreached in proctype calc
+	calculator.pml:23, state 16, "assert(0)"
+	(1 of 23 states)
+unreached in init
+	(0 of 13 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 256 byte, depth reached 60, errors: 0
+       52 states, stored
+        0 states, matched
+       52 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 10082.5 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 203357
+
+Stats on memory usage (in Megabytes):
+    0.014	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.062	memory used for hash array (-w19)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    0.980	total actual memory usage
+
+
+unreached in proctype calc
+	calculator.pml:23, state 16, "assert(0)"
+	(1 of 23 states)
+unreached in init
+	(0 of 13 states)
+
+pan: elapsed time 0 seconds

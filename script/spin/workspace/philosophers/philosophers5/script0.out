@@ -1,0 +1,2 @@
+error: max search depth too small
+Depth=     999 States=    1e+06 Transitions= 1.66e+07 Memory=    32.488	t=     4.28 R=   2e+05

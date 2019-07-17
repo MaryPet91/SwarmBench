@@ -1,0 +1,536 @@
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (p1)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 280 byte, depth reached 208, errors: 0
+     1070 states, stored
+      244 states, matched
+     1314 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 250874 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 2744
+
+Stats on memory usage (in Megabytes):
+    0.306	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   33.077	total actual memory usage
+
+
+unreached in proctype _P0
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:75, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _P1
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:147, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:182, state 15, "-end-"
+	(1 of 15 states)
+unreached in init
+	(0 of 4 states)
+unreached in claim p1
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0.01 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (p1)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 280 byte, depth reached 228, errors: 0
+     1031 states, stored
+      235 states, matched
+     1266 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 260364 (best if > 100.)
+
+bits set per state: 3 (-k3)
+random seed used: 65802
+
+Stats on memory usage (in Megabytes):
+    0.295	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   33.077	total actual memory usage
+
+
+unreached in proctype _P0
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:75, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _P1
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:147, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:182, state 15, "-end-"
+	(1 of 15 states)
+unreached in init
+	(0 of 4 states)
+unreached in claim p1
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0.01 seconds
+error: max search depth too small
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (p1)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 280 byte, depth reached 127, errors: 0
+      971 states, stored
+      267 states, matched
+     1238 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 276453 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 184337
+
+Stats on memory usage (in Megabytes):
+    0.278	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.001	memory used for bit stack
+    0.009	memory used for DFS stack (-m128)
+   32.195	total actual memory usage
+
+
+unreached in proctype _P0
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:75, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _P1
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:147, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:182, state 15, "-end-"
+	(1 of 15 states)
+unreached in init
+	(0 of 4 states)
+unreached in claim p1
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0.01 seconds
+error: max search depth too small
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (p1)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 280 byte, depth reached 127, errors: 0
+      974 states, stored
+      259 states, matched
+     1233 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 275601 (best if > 100.)
+
+bits set per state: 3 (-k3)
+random seed used: 26630
+
+Stats on memory usage (in Megabytes):
+    0.279	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.001	memory used for bit stack
+    0.009	memory used for DFS stack (-m128)
+   32.195	total actual memory usage
+
+
+unreached in proctype _P0
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:75, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _P1
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:147, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:182, state 15, "-end-"
+	(1 of 15 states)
+unreached in init
+	(0 of 4 states)
+unreached in claim p1
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (p1)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 280 byte, depth reached 208, errors: 0
+     1066 states, stored
+      242 states, matched
+     1308 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 251816 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 181058
+
+Stats on memory usage (in Megabytes):
+    0.305	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   33.077	total actual memory usage
+
+
+unreached in proctype _P0
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:75, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _P1
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:147, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:182, state 15, "-end-"
+	(1 of 15 states)
+unreached in init
+	(0 of 4 states)
+unreached in claim p1
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (p1)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 280 byte, depth reached 228, errors: 0
+     1040 states, stored
+      238 states, matched
+     1278 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 64527.8 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 21238
+
+Stats on memory usage (in Megabytes):
+    0.298	equivalent memory usage for states (stored*(State-vector + overhead))
+    8.000	memory used for hash array (-w26)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    9.077	total actual memory usage
+
+
+unreached in proctype _P0
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:75, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _P1
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:147, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:182, state 15, "-end-"
+	(1 of 15 states)
+unreached in init
+	(0 of 4 states)
+unreached in claim p1
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0.01 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (p1)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 280 byte, depth reached 188, errors: 0
+     1064 states, stored
+      244 states, matched
+     1308 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 15768.1 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 89171
+
+Stats on memory usage (in Megabytes):
+    0.304	equivalent memory usage for states (stored*(State-vector + overhead))
+    2.000	memory used for hash array (-w24)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    3.077	total actual memory usage
+
+
+unreached in proctype _P0
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:75, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _P1
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:147, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:182, state 15, "-end-"
+	(1 of 15 states)
+unreached in init
+	(0 of 4 states)
+unreached in claim p1
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (p1)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 280 byte, depth reached 208, errors: 0
+     1025 states, stored
+      235 states, matched
+     1260 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 8184.01 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 76016
+
+Stats on memory usage (in Megabytes):
+    0.293	equivalent memory usage for states (stored*(State-vector + overhead))
+    1.000	memory used for hash array (-w23)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    2.077	total actual memory usage
+
+
+unreached in proctype _P0
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:75, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _P1
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:147, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:182, state 15, "-end-"
+	(1 of 15 states)
+unreached in init
+	(0 of 4 states)
+unreached in claim p1
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (p1)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 280 byte, depth reached 188, errors: 0
+     1068 states, stored
+      244 states, matched
+     1312 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 3927.25 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 35317
+
+Stats on memory usage (in Megabytes):
+    0.306	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.500	memory used for hash array (-w22)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.577	total actual memory usage
+
+
+unreached in proctype _P0
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:75, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _P1
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:147, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:182, state 15, "-end-"
+	(1 of 15 states)
+unreached in init
+	(0 of 4 states)
+unreached in claim p1
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (p1)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 280 byte, depth reached 208, errors: 0
+     1059 states, stored
+      241 states, matched
+     1300 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 1980.31 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 24359
+
+Stats on memory usage (in Megabytes):
+    0.303	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.250	memory used for hash array (-w21)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.327	total actual memory usage
+
+
+unreached in proctype _P0
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:75, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _P1
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:147, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:182, state 15, "-end-"
+	(1 of 15 states)
+unreached in init
+	(0 of 4 states)
+unreached in claim p1
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (p1)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 280 byte, depth reached 228, errors: 0
+     1058 states, stored
+      244 states, matched
+     1302 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 495.546 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 203357
+
+Stats on memory usage (in Megabytes):
+    0.303	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.062	memory used for hash array (-w19)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.077	total actual memory usage
+
+
+unreached in proctype _P0
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:75, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _P1
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:147, state 48, "-end-"
+	(1 of 48 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/peterson/peterson2/peterson2.pml:182, state 15, "-end-"
+	(1 of 15 states)
+unreached in init
+	(0 of 4 states)
+unreached in claim p1
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0 seconds

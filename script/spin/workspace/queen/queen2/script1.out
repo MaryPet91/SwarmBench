@@ -1,0 +1,402 @@
+pan:1: c_code line 159 precondition false: ((int *)Pp_start_thread->arg) (at depth 97)
+pan: wrote queen2.pml_pan2_13335.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 98, errors: 1
+       92 states, stored
+        0 states, matched
+       92 transitions (= stored+matched)
+        8 atomic steps
+
+hash factor: 2.91778e+06 (best if > 100.)
+
+bits set per state: 2 (-k2)
+random seed used: 49838
+
+Stats on memory usage (in Megabytes):
+    0.053	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   33.077	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: c_code line 159 precondition false: ((int *)Pp_start_thread->arg) (at depth 93)
+pan: wrote queen2.pml_pan4_13336.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 93, errors: 1
+       89 states, stored
+        0 states, matched
+       89 transitions (= stored+matched)
+        6 atomic steps
+
+hash factor: 3.01613e+06 (best if > 100.)
+
+bits set per state: 4 (-k4)
+random seed used: 227122
+
+Stats on memory usage (in Megabytes):
+    0.051	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   33.077	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: c_code line 159 precondition false: ((int *)Pp_start_thread->arg) (at depth 93)
+pan: wrote queen2.pml_pan2_13338.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 93, errors: 1
+       89 states, stored
+        0 states, matched
+       89 transitions (= stored+matched)
+        6 atomic steps
+
+hash factor: 3.01613e+06 (best if > 100.)
+
+bits set per state: 2 (-k2)
+random seed used: 33101
+
+Stats on memory usage (in Megabytes):
+    0.051	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.001	memory used for bit stack
+    0.009	memory used for DFS stack (-m128)
+   32.195	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: c_code line 159 precondition false: ((int *)Pp_start_thread->arg) (at depth 95)
+pan: wrote queen2.pml_pan4_13340.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 95, errors: 1
+       91 states, stored
+        0 states, matched
+       91 transitions (= stored+matched)
+        6 atomic steps
+
+hash factor: 2.94984e+06 (best if > 100.)
+
+bits set per state: 4 (-k4)
+random seed used: 34359
+
+Stats on memory usage (in Megabytes):
+    0.052	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.001	memory used for bit stack
+    0.009	memory used for DFS stack (-m128)
+   32.195	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: c_code line 159 precondition false: ((int *)Pp_start_thread->arg) (at depth 97)
+pan: wrote queen2.pml_pan2_13342.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 98, errors: 1
+       92 states, stored
+        0 states, matched
+       92 transitions (= stored+matched)
+        8 atomic steps
+
+hash factor: 1.45889e+06 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 138508
+
+Stats on memory usage (in Megabytes):
+    0.053	equivalent memory usage for states (stored*(State-vector + overhead))
+   16.000	memory used for hash array (-w27)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   17.077	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: c_code line 159 precondition false: ((int *)Pp_start_thread->arg) (at depth 93)
+pan: wrote queen2.pml_pan4_13344.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 93, errors: 1
+       89 states, stored
+        0 states, matched
+       89 transitions (= stored+matched)
+        6 atomic steps
+
+hash factor: 377016 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 72130
+
+Stats on memory usage (in Megabytes):
+    0.051	equivalent memory usage for states (stored*(State-vector + overhead))
+    4.000	memory used for hash array (-w25)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    5.077	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: c_code line 159 precondition false: ((int *)Pp_start_thread->arg) (at depth 97)
+pan: wrote queen2.pml_pan2_13345.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 98, errors: 1
+       92 states, stored
+        0 states, matched
+       92 transitions (= stored+matched)
+        8 atomic steps
+
+hash factor: 91180.5 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 42556
+
+Stats on memory usage (in Megabytes):
+    0.053	equivalent memory usage for states (stored*(State-vector + overhead))
+    1.000	memory used for hash array (-w23)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    2.077	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: c_code line 159 precondition false: ((int *)Pp_start_thread->arg) (at depth 93)
+pan: wrote queen2.pml_pan4_13346.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 93, errors: 1
+       89 states, stored
+        0 states, matched
+       89 transitions (= stored+matched)
+        6 atomic steps
+
+hash factor: 47127 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 135575
+
+Stats on memory usage (in Megabytes):
+    0.051	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.500	memory used for hash array (-w22)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.577	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: c_code line 159 precondition false: ((int *)Pp_start_thread->arg) (at depth 93)
+pan: wrote queen2.pml_pan2_13347.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 93, errors: 1
+       89 states, stored
+        0 states, matched
+       89 transitions (= stored+matched)
+        6 atomic steps
+
+hash factor: 23563.5 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 23101
+
+Stats on memory usage (in Megabytes):
+    0.051	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.250	memory used for hash array (-w21)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.327	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: c_code line 159 precondition false: ((int *)Pp_start_thread->arg) (at depth 93)
+pan: wrote queen2.pml_pan4_13348.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 93, errors: 1
+       89 states, stored
+        0 states, matched
+       89 transitions (= stored+matched)
+        6 atomic steps
+
+hash factor: 11781.8 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 103058
+
+Stats on memory usage (in Megabytes):
+    0.051	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.125	memory used for hash array (-w20)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.202	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+pan:1: c_code line 159 precondition false: ((int *)Pp_start_thread->arg) (at depth 97)
+pan: wrote queen2.pml_pan2_13349.trail
+
+(Spin Version 6.4.8 -- 2 March 2018)
+Warning: Search not completed
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 580 byte, depth reached 98, errors: 1
+       92 states, stored
+        0 states, matched
+       92 transitions (= stored+matched)
+        8 atomic steps
+
+hash factor: 5698.78 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 24948
+
+Stats on memory usage (in Megabytes):
+    0.053	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.062	memory used for hash array (-w19)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.077	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds

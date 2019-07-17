@@ -1,0 +1,3 @@
+{"nomeProgramma":"philosophers", "time":16.4, "memoryUsage":340.04504, "params":"-u128 -d10000"}
+{"nomeProgramma":"philosophers", "time":15.6, "memoryUsage":340.04504, "params":"-u128 -d10000"}
+{"nomeProgramma":"philosophers", "time":16.0, "memoryUsage":264.498, "params":"-u128 -d10000"}

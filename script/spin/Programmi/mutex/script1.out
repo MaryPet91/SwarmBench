@@ -1,0 +1,638 @@
+pan: ltl fomula safety
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (safety)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 44 byte, depth reached 21, errors: 0
+       33 states, stored
+       40 states, matched
+       73 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 3.25376e+07 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 49838
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+  128.000	memory used for hash array (-w30)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+  128.980	total actual memory usage
+
+
+unreached in proctype user
+	mutex.pml:22, state 16, "-end-"
+	(1 of 16 states)
+unreached in init
+	(0 of 2 states)
+unreached in claim safety
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+unreached in claim liveness
+	_spin_nvr.tmp:21, state 18, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:25, state 23, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:29, state 30, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:29, state 30, "(1)"
+	_spin_nvr.tmp:34, state 37, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:34, state 37, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:39, state 48, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(1)"
+	_spin_nvr.tmp:39, state 48, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:49, state 58, "-end-"
+	(7 of 58 states)
+
+pan: elapsed time 0 seconds
+pan: ltl fomula safety
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (safety)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 44 byte, depth reached 21, errors: 0
+       33 states, stored
+       40 states, matched
+       73 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 1.62688e+07 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 23101
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+   64.000	memory used for hash array (-w29)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   64.980	total actual memory usage
+
+
+unreached in proctype user
+	mutex.pml:22, state 16, "-end-"
+	(1 of 16 states)
+unreached in init
+	(0 of 2 states)
+unreached in claim safety
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+unreached in claim liveness
+	_spin_nvr.tmp:21, state 18, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:25, state 23, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:29, state 30, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:29, state 30, "(1)"
+	_spin_nvr.tmp:34, state 37, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:34, state 37, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:39, state 48, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(1)"
+	_spin_nvr.tmp:39, state 48, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:49, state 58, "-end-"
+	(7 of 58 states)
+
+pan: elapsed time 0 seconds
+pan: ltl fomula safety
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (safety)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 44 byte, depth reached 21, errors: 0
+       33 states, stored
+       40 states, matched
+       73 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 8.13441e+06 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 30931
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   32.980	total actual memory usage
+
+
+unreached in proctype user
+	mutex.pml:22, state 16, "-end-"
+	(1 of 16 states)
+unreached in init
+	(0 of 2 states)
+unreached in claim safety
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+unreached in claim liveness
+	_spin_nvr.tmp:21, state 18, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:25, state 23, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:29, state 30, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:29, state 30, "(1)"
+	_spin_nvr.tmp:34, state 37, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:34, state 37, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:39, state 48, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(1)"
+	_spin_nvr.tmp:39, state 48, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:49, state 58, "-end-"
+	(7 of 58 states)
+
+pan: elapsed time 0 seconds
+pan: ltl fomula safety
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (safety)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 44 byte, depth reached 21, errors: 0
+       33 states, stored
+       40 states, matched
+       73 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 4.0672e+06 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 26837
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+   16.000	memory used for hash array (-w27)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   16.980	total actual memory usage
+
+
+unreached in proctype user
+	mutex.pml:22, state 16, "-end-"
+	(1 of 16 states)
+unreached in init
+	(0 of 2 states)
+unreached in claim safety
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+unreached in claim liveness
+	_spin_nvr.tmp:21, state 18, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:25, state 23, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:29, state 30, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:29, state 30, "(1)"
+	_spin_nvr.tmp:34, state 37, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:34, state 37, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:39, state 48, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(1)"
+	_spin_nvr.tmp:39, state 48, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:49, state 58, "-end-"
+	(7 of 58 states)
+
+pan: elapsed time 0 seconds
+pan: ltl fomula safety
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (safety)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 44 byte, depth reached 27, errors: 0
+       33 states, stored
+       40 states, matched
+       73 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 2.0336e+06 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 94706
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+    8.000	memory used for hash array (-w26)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    8.980	total actual memory usage
+
+
+unreached in proctype user
+	mutex.pml:22, state 16, "-end-"
+	(1 of 16 states)
+unreached in init
+	(0 of 2 states)
+unreached in claim safety
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+unreached in claim liveness
+	_spin_nvr.tmp:21, state 18, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:25, state 23, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:29, state 30, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:29, state 30, "(1)"
+	_spin_nvr.tmp:34, state 37, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:34, state 37, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:39, state 48, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(1)"
+	_spin_nvr.tmp:39, state 48, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:49, state 58, "-end-"
+	(7 of 58 states)
+
+pan: elapsed time 0 seconds
+pan: ltl fomula safety
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (safety)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 44 byte, depth reached 27, errors: 0
+       33 states, stored
+       40 states, matched
+       73 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 1.0168e+06 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 68482
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+    4.000	memory used for hash array (-w25)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    4.980	total actual memory usage
+
+
+unreached in proctype user
+	mutex.pml:22, state 16, "-end-"
+	(1 of 16 states)
+unreached in init
+	(0 of 2 states)
+unreached in claim safety
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+unreached in claim liveness
+	_spin_nvr.tmp:21, state 18, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:25, state 23, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:29, state 30, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:29, state 30, "(1)"
+	_spin_nvr.tmp:34, state 37, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:34, state 37, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:39, state 48, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(1)"
+	_spin_nvr.tmp:39, state 48, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:49, state 58, "-end-"
+	(7 of 58 states)
+
+pan: elapsed time 0 seconds
+pan: ltl fomula safety
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (safety)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 44 byte, depth reached 25, errors: 0
+       33 states, stored
+       40 states, matched
+       73 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 508400 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 59025
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+    2.000	memory used for hash array (-w24)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    2.980	total actual memory usage
+
+
+unreached in proctype user
+	mutex.pml:22, state 16, "-end-"
+	(1 of 16 states)
+unreached in init
+	(0 of 2 states)
+unreached in claim safety
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+unreached in claim liveness
+	_spin_nvr.tmp:21, state 18, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:25, state 23, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:29, state 30, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:29, state 30, "(1)"
+	_spin_nvr.tmp:34, state 37, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:34, state 37, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:39, state 48, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(1)"
+	_spin_nvr.tmp:39, state 48, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:49, state 58, "-end-"
+	(7 of 58 states)
+
+pan: elapsed time 0 seconds
+pan: ltl fomula safety
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (safety)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 44 byte, depth reached 21, errors: 0
+       33 states, stored
+       40 states, matched
+       73 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 127100 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 151537
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.500	memory used for hash array (-w22)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.480	total actual memory usage
+
+
+unreached in proctype user
+	mutex.pml:22, state 16, "-end-"
+	(1 of 16 states)
+unreached in init
+	(0 of 2 states)
+unreached in claim safety
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+unreached in claim liveness
+	_spin_nvr.tmp:21, state 18, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:25, state 23, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:29, state 30, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:29, state 30, "(1)"
+	_spin_nvr.tmp:34, state 37, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:34, state 37, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:39, state 48, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(1)"
+	_spin_nvr.tmp:39, state 48, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:49, state 58, "-end-"
+	(7 of 58 states)
+
+pan: elapsed time 0 seconds
+pan: ltl fomula safety
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (safety)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 44 byte, depth reached 25, errors: 0
+       33 states, stored
+       40 states, matched
+       73 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 63550.1 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 234161
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.250	memory used for hash array (-w21)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.230	total actual memory usage
+
+
+unreached in proctype user
+	mutex.pml:22, state 16, "-end-"
+	(1 of 16 states)
+unreached in init
+	(0 of 2 states)
+unreached in claim safety
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+unreached in claim liveness
+	_spin_nvr.tmp:21, state 18, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:25, state 23, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:29, state 30, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:29, state 30, "(1)"
+	_spin_nvr.tmp:34, state 37, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:34, state 37, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:39, state 48, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(1)"
+	_spin_nvr.tmp:39, state 48, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:49, state 58, "-end-"
+	(7 of 58 states)
+
+pan: elapsed time 0 seconds
+pan: ltl fomula safety
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (safety)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 44 byte, depth reached 21, errors: 0
+       33 states, stored
+       40 states, matched
+       73 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 31775 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 163964
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.125	memory used for hash array (-w20)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.105	total actual memory usage
+
+
+unreached in proctype user
+	mutex.pml:22, state 16, "-end-"
+	(1 of 16 states)
+unreached in init
+	(0 of 2 states)
+unreached in claim safety
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+unreached in claim liveness
+	_spin_nvr.tmp:21, state 18, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:25, state 23, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:29, state 30, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:29, state 30, "(1)"
+	_spin_nvr.tmp:34, state 37, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:34, state 37, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:39, state 48, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(1)"
+	_spin_nvr.tmp:39, state 48, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:49, state 58, "-end-"
+	(7 of 58 states)
+
+pan: elapsed time 0 seconds
+pan: ltl fomula safety
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	+ (safety)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+
+State-vector 44 byte, depth reached 21, errors: 0
+       33 states, stored
+       40 states, matched
+       73 transitions (= stored+matched)
+        0 atomic steps
+
+hash factor: 15887.5 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 49400
+
+Stats on memory usage (in Megabytes):
+    0.002	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.062	memory used for hash array (-w19)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    0.980	total actual memory usage
+
+
+unreached in proctype user
+	mutex.pml:22, state 16, "-end-"
+	(1 of 16 states)
+unreached in init
+	(0 of 2 states)
+unreached in claim safety
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+unreached in claim liveness
+	_spin_nvr.tmp:21, state 18, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:25, state 23, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:29, state 30, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:29, state 30, "(1)"
+	_spin_nvr.tmp:34, state 37, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:34, state 37, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(((!(!((pc[0]==request)))&&!(((pc[0]==request)&&(sem==1))))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:39, state 48, "(!(((pc[0]==request)&&(sem==1))))"
+	_spin_nvr.tmp:39, state 48, "(1)"
+	_spin_nvr.tmp:39, state 48, "((!(!((pc[0]==request)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "((!(((pc[0]==request)&&(sem==1)))&&!((pc[0]==critical))))"
+	_spin_nvr.tmp:46, state 55, "(!((pc[0]==critical)))"
+	_spin_nvr.tmp:49, state 58, "-end-"
+	(7 of 58 states)
+
+pan: elapsed time 0 seconds

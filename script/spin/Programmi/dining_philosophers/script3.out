@@ -1,0 +1,380 @@
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 258, errors: 0
+      393 states, stored
+     1100 states, matched
+     1493 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 683042 (best if > 100.)
+
+bits set per state: 4 (-k4)
+random seed used: 227122
+
+Stats on memory usage (in Megabytes):
+    0.030	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   33.077	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 316, errors: 0
+      393 states, stored
+     1100 states, matched
+     1493 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 683042 (best if > 100.)
+
+bits set per state: 3 (-k3)
+
+Stats on memory usage (in Megabytes):
+    0.030	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.076	memory used for bit stack
+    0.534	memory used for DFS stack (-m10000)
+   32.925	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+error: max search depth too small
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 127, errors: 0
+      376 states, stored
+     1049 states, matched
+     1425 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 713924 (best if > 100.)
+
+bits set per state: 2 (-k2)
+random seed used: 34359
+
+Stats on memory usage (in Megabytes):
+    0.029	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.001	memory used for bit stack
+    0.009	memory used for DFS stack (-m128)
+   32.195	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+error: max search depth too small
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 127, errors: 0
+      372 states, stored
+     1044 states, matched
+     1416 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 721601 (best if > 100.)
+
+bits set per state: 1 (-k1)
+
+Stats on memory usage (in Megabytes):
+    0.028	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.001	memory used for bit stack
+    0.007	memory used for DFS stack (-m128)
+   32.195	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 281, errors: 0
+      393 states, stored
+     1100 states, matched
+     1493 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 170760 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 72130
+
+Stats on memory usage (in Megabytes):
+    0.030	equivalent memory usage for states (stored*(State-vector + overhead))
+    8.000	memory used for hash array (-w26)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    9.077	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 316, errors: 0
+      393 states, stored
+     1100 states, matched
+     1493 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 85380.2 (best if > 100.)
+
+bits set per state: 1 (-k1)
+
+Stats on memory usage (in Megabytes):
+    0.030	equivalent memory usage for states (stored*(State-vector + overhead))
+    4.000	memory used for hash array (-w25)
+    0.076	memory used for bit stack
+    0.534	memory used for DFS stack (-m10000)
+    4.925	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 302, errors: 0
+      393 states, stored
+     1100 states, matched
+     1493 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 42690.1 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 135575
+
+Stats on memory usage (in Megabytes):
+    0.030	equivalent memory usage for states (stored*(State-vector + overhead))
+    2.000	memory used for hash array (-w24)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    3.077	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 316, errors: 0
+      393 states, stored
+     1100 states, matched
+     1493 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 21345.1 (best if > 100.)
+
+bits set per state: 1 (-k1)
+
+Stats on memory usage (in Megabytes):
+    0.030	equivalent memory usage for states (stored*(State-vector + overhead))
+    1.000	memory used for hash array (-w23)
+    0.076	memory used for bit stack
+    0.534	memory used for DFS stack (-m10000)
+    1.925	total actual memory usage
+
+
+
+pan: elapsed time 0.01 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 256, errors: 0
+      393 states, stored
+     1100 states, matched
+     1493 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 10672.5 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 103058
+
+Stats on memory usage (in Megabytes):
+    0.030	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.500	memory used for hash array (-w22)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.577	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 316, errors: 0
+      393 states, stored
+     1100 states, matched
+     1493 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 5336.26 (best if > 100.)
+
+bits set per state: 1 (-k1)
+
+Stats on memory usage (in Megabytes):
+    0.030	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.250	memory used for hash array (-w21)
+    0.076	memory used for bit stack
+    0.534	memory used for DFS stack (-m10000)
+    1.175	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 272, errors: 0
+      393 states, stored
+     1100 states, matched
+     1493 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 2668.13 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 35393
+
+Stats on memory usage (in Megabytes):
+    0.030	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.125	memory used for hash array (-w20)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.202	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 60 byte, depth reached 316, errors: 0
+      393 states, stored
+     1100 states, matched
+     1493 transitions (= stored+matched)
+       16 atomic steps
+
+hash factor: 1334.07 (best if > 100.)
+
+bits set per state: 1 (-k1)
+
+Stats on memory usage (in Megabytes):
+    0.030	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.062	memory used for hash array (-w19)
+    0.076	memory used for bit stack
+    0.534	memory used for DFS stack (-m10000)
+    0.925	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds

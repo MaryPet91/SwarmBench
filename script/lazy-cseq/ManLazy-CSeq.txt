@@ -1,0 +1,68 @@
+CSeq Lazy |  September 2016
+
+Usage: 
+
+   ./cseq-feeder.py -h [-l <config>]
+   ./cseq-feeder.py -i <input.c> [options]
+
+ configuration options: 
+   -l,--load=<file>       configuration to use (default:lazy)
+   -L,--list-configs      show available configurations
+
+ input options:
+   -i,--input=<file>      input filename
+   -I,--include=<path>    include search path (use : as a separator) (default:./)
+
+ module options:
+   --error-label <l>          error label for reachability check (default:ERROR)
+   --keepstaticarray          keep static array, do not change to pointer version (optional)
+   --atomicparameter          keep passing parameter atomic (optional)
+   --nondet-static            use default backend support of nondet static variables (optional)
+   --unwind < u >             loop unwind bound (default:1)
+   --unwind-while < u >       potentially unbounded loops (optional)
+   --unwind-for < u >         potentially bounded loops (optional)
+   --unwind-for-max < u >     definitely bounded loops (0 = no bound) (optional)
+   --softunwindbound          full unroll definitely bounded loops (optional)
+   --rounds <r>               round-robin schedules (default:1)
+   --deadlock                 check for deadlock (optional)
+   --decomposepc              use seperate variable for each pc (optional)
+   --robin                    use round robin schedule (optional)
+   --guess-cs-only            context switch is guessed only (optional)
+   --norobin                  use new schedule (optional)
+   --preanalysis < u >          use preanalysis input from abstract interpretation backend (optional)
+   --donotcheckvisiblepointer do not check pointer for visible statement (optional)
+   --backend < b >              
+      backend to use for analysis, available choices are:
+                                1) bounded model-checkers: (blitz, cbmc, esbmc, llbmc, smack)
+                                2) abstraction-based: (cpachecker, satabs, uautomizer, framac)
+                                3) testing: (klee) (default:cbmc)
+   --svcomp                   extra instrumentation for SVCOMP (optional)
+   --roundint                 round to integer built-in types (optional)
+   --bit-pthread              set bit vector for pthread types (optional)
+   --path-backend < p >         path to backend (only for cbmc backends) (optional)
+   --time <t>                 analysis time limit (in seconds) (default:86400)
+   --llvm < p >                 clang or llvm search path (only for llbmc, klee backends) (optional)
+   --depth <d>                limit search depth (default:0)
+   --slevel <l>               semantic level of Frama-C (default:0)
+   --output <o>               output sequentialized file (optional)
+   --witness <w>              output counterexample from backend (optional)
+   --backend-engine < s >       engine (solver) of backend (optional)
+   --cex                      show counterexample (cbmc only) (optional)
+   --stop-on-fail             stop analysis once a failed property is detected (optional)
+   --bounds-check             enable array bounds checks (optional)
+   --div-by-zero-check        enable division by zero checks (optional)
+   --pointer-check            enable pointer checks (optional)
+   --memory-leak-check        enable memory leak checks (optional)
+   --signed-overflow-check    enable arithmetic over- and underflow checks of signed integer (optional)
+   --unsigned-overflow-check  enable arithmetic over- and underflow checks of unsigned integer (optional)
+   --float-overflow-check     check floating-point for +/-Inf (optional)
+   --nan-check                check floating-point for NaN (optional)
+   --no-simplify              no simplification from cbmc (optional)
+   --refine-arrays            array refinement from cbmc (optional)
+   --overflow-check           enable arithmetic over- and underflow check (optional)
+   --linemap                  show linemap (optional)
+
+ other options: 
+   -h, --help                 show help
+   -H, --detailedhelp         show detailed configuration-specific help
+   -v  --version              show version number

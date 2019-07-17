@@ -1,0 +1,20 @@
+usage: swarm [options]*
+	file = read configuration parameters from file
+	-bN = nr of bytes/state in exhaustive mode (default -b512)
+	-cN = nr of cpus available (default -c2)
+	-dN = max search depth (default -d10000)
+	-e  = allow for early termination when a first error is found
+	-f model_name = a required argument, no default
+	-hN = estimated hash-factor (default 1.500000)
+	-l  = write default configuration file to stdout
+	-mN = max amount of mem to use per run, optional suffix M or G, (default -m512M)
+	-nN = set seed value for random number generator to N (default 123)
+	-sN = estimated nr of states/sec (default -s250000)
+	-tN = nr of hours available (default -t1.0)
+	-uN = set minimum search depth to use to N (default 128)
+	-V  = print version number and exit
+	-v  = verbose (default is non-verbose)
+
+	define shell variable CCOMMON for compile time params (default CCOMMON="-O2 -DSAFETY")
+	define shell variable RCOMMON for run time parameters (default RCOMMON="")
+

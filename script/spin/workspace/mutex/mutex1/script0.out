@@ -1,0 +1,493 @@
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 164 byte, depth reached 214, errors: 0
+     1926 states, stored
+     1761 states, matched
+     3687 transitions (= stored+matched)
+      708 atomic steps
+
+hash factor: 139375 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 2744
+
+Stats on memory usage (in Megabytes):
+    0.338	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   33.077	total actual memory usage
+
+
+unreached in proctype p_watch
+	_modex_all.pml:36, state 31, "-end-"
+	(1 of 31 states)
+unreached in proctype p_increment
+	_modex_all.pml:72, state 17, " Pp_increment->i++; "
+	_modex_all.pml:78, state 26, "-end-"
+	(2 of 26 states)
+unreached in proctype p_main
+	(0 of 22 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 164 byte, depth reached 199, errors: 0
+     1926 states, stored
+     1763 states, matched
+     3689 transitions (= stored+matched)
+      708 atomic steps
+
+hash factor: 139375 (best if > 100.)
+
+bits set per state: 3 (-k3)
+random seed used: 65802
+
+Stats on memory usage (in Megabytes):
+    0.338	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   33.077	total actual memory usage
+
+
+unreached in proctype p_watch
+	_modex_all.pml:36, state 31, "-end-"
+	(1 of 31 states)
+unreached in proctype p_increment
+	_modex_all.pml:72, state 17, " Pp_increment->i++; "
+	_modex_all.pml:78, state 26, "-end-"
+	(2 of 26 states)
+unreached in proctype p_main
+	(0 of 22 states)
+
+pan: elapsed time 0 seconds
+error: max search depth too small
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 164 byte, depth reached 127, errors: 0
+      672 states, stored
+      624 states, matched
+     1296 transitions (= stored+matched)
+      386 atomic steps
+
+hash factor: 399458 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 184337
+
+Stats on memory usage (in Megabytes):
+    0.118	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.001	memory used for bit stack
+    0.009	memory used for DFS stack (-m128)
+   32.195	total actual memory usage
+
+
+unreached in proctype p_watch
+	_modex_all.pml:32, state 27, " spin_mutex_unlock(&(now.count_mutex)); "
+	_modex_all.pml:34, state 29, "ret_p_watch!lck_id"
+	_modex_all.pml:36, state 31, "-end-"
+	(3 of 31 states)
+unreached in proctype p_increment
+	_modex_all.pml:72, state 17, " Pp_increment->i++; "
+	_modex_all.pml:78, state 26, "-end-"
+	(2 of 26 states)
+unreached in proctype p_main
+	_modex_all.pml:126, state 18, " now.lck_p_increment_ret = 0; "
+	_modex_all.pml:127, state 19, "ret_p_watch?eval(_pid)"
+	_modex_all.pml:128, state 20, " now.lck_p_watch_ret = 0; "
+	_modex_all.pml:158, state 22, "-end-"
+	(4 of 22 states)
+
+pan: elapsed time 0 seconds
+error: max search depth too small
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 164 byte, depth reached 127, errors: 0
+      683 states, stored
+      642 states, matched
+     1325 transitions (= stored+matched)
+      389 atomic steps
+
+hash factor: 393024 (best if > 100.)
+
+bits set per state: 3 (-k3)
+random seed used: 26630
+
+Stats on memory usage (in Megabytes):
+    0.120	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.001	memory used for bit stack
+    0.009	memory used for DFS stack (-m128)
+   32.195	total actual memory usage
+
+
+unreached in proctype p_watch
+	_modex_all.pml:32, state 27, " spin_mutex_unlock(&(now.count_mutex)); "
+	_modex_all.pml:34, state 29, "ret_p_watch!lck_id"
+	_modex_all.pml:36, state 31, "-end-"
+	(3 of 31 states)
+unreached in proctype p_increment
+	_modex_all.pml:72, state 17, " Pp_increment->i++; "
+	_modex_all.pml:78, state 26, "-end-"
+	(2 of 26 states)
+unreached in proctype p_main
+	_modex_all.pml:126, state 18, " now.lck_p_increment_ret = 0; "
+	_modex_all.pml:127, state 19, "ret_p_watch?eval(_pid)"
+	_modex_all.pml:128, state 20, " now.lck_p_watch_ret = 0; "
+	_modex_all.pml:158, state 22, "-end-"
+	(4 of 22 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 164 byte, depth reached 217, errors: 0
+     1926 states, stored
+     1761 states, matched
+     3687 transitions (= stored+matched)
+      708 atomic steps
+
+hash factor: 139375 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 181058
+
+Stats on memory usage (in Megabytes):
+    0.338	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   33.077	total actual memory usage
+
+
+unreached in proctype p_watch
+	_modex_all.pml:36, state 31, "-end-"
+	(1 of 31 states)
+unreached in proctype p_increment
+	_modex_all.pml:72, state 17, " Pp_increment->i++; "
+	_modex_all.pml:78, state 26, "-end-"
+	(2 of 26 states)
+unreached in proctype p_main
+	(0 of 22 states)
+
+pan: elapsed time 0.01 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 164 byte, depth reached 207, errors: 0
+     1926 states, stored
+     1763 states, matched
+     3689 transitions (= stored+matched)
+      708 atomic steps
+
+hash factor: 34843.6 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 21238
+
+Stats on memory usage (in Megabytes):
+    0.338	equivalent memory usage for states (stored*(State-vector + overhead))
+    8.000	memory used for hash array (-w26)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    9.077	total actual memory usage
+
+
+unreached in proctype p_watch
+	_modex_all.pml:36, state 31, "-end-"
+	(1 of 31 states)
+unreached in proctype p_increment
+	_modex_all.pml:72, state 17, " Pp_increment->i++; "
+	_modex_all.pml:78, state 26, "-end-"
+	(2 of 26 states)
+unreached in proctype p_main
+	(0 of 22 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 164 byte, depth reached 222, errors: 0
+     1926 states, stored
+     1761 states, matched
+     3687 transitions (= stored+matched)
+      708 atomic steps
+
+hash factor: 8710.91 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 89171
+
+Stats on memory usage (in Megabytes):
+    0.338	equivalent memory usage for states (stored*(State-vector + overhead))
+    2.000	memory used for hash array (-w24)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    3.077	total actual memory usage
+
+
+unreached in proctype p_watch
+	_modex_all.pml:36, state 31, "-end-"
+	(1 of 31 states)
+unreached in proctype p_increment
+	_modex_all.pml:72, state 17, " Pp_increment->i++; "
+	_modex_all.pml:78, state 26, "-end-"
+	(2 of 26 states)
+unreached in proctype p_main
+	(0 of 22 states)
+
+pan: elapsed time 0.01 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 164 byte, depth reached 214, errors: 0
+     1926 states, stored
+     1763 states, matched
+     3689 transitions (= stored+matched)
+      708 atomic steps
+
+hash factor: 4355.46 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 76016
+
+Stats on memory usage (in Megabytes):
+    0.338	equivalent memory usage for states (stored*(State-vector + overhead))
+    1.000	memory used for hash array (-w23)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    2.077	total actual memory usage
+
+
+unreached in proctype p_watch
+	_modex_all.pml:36, state 31, "-end-"
+	(1 of 31 states)
+unreached in proctype p_increment
+	_modex_all.pml:72, state 17, " Pp_increment->i++; "
+	_modex_all.pml:78, state 26, "-end-"
+	(2 of 26 states)
+unreached in proctype p_main
+	(0 of 22 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 164 byte, depth reached 222, errors: 0
+     1925 states, stored
+     1761 states, matched
+     3686 transitions (= stored+matched)
+      708 atomic steps
+
+hash factor: 2178.86 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 35317
+
+Stats on memory usage (in Megabytes):
+    0.338	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.500	memory used for hash array (-w22)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.577	total actual memory usage
+
+
+unreached in proctype p_watch
+	_modex_all.pml:36, state 31, "-end-"
+	(1 of 31 states)
+unreached in proctype p_increment
+	_modex_all.pml:72, state 17, " Pp_increment->i++; "
+	_modex_all.pml:78, state 26, "-end-"
+	(2 of 26 states)
+unreached in proctype p_main
+	(0 of 22 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 164 byte, depth reached 199, errors: 0
+     1925 states, stored
+     1761 states, matched
+     3686 transitions (= stored+matched)
+      708 atomic steps
+
+hash factor: 1089.43 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 24359
+
+Stats on memory usage (in Megabytes):
+    0.338	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.250	memory used for hash array (-w21)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.327	total actual memory usage
+
+
+unreached in proctype p_watch
+	_modex_all.pml:36, state 31, "-end-"
+	(1 of 31 states)
+unreached in proctype p_increment
+	_modex_all.pml:72, state 17, " Pp_increment->i++; "
+	_modex_all.pml:78, state 26, "-end-"
+	(2 of 26 states)
+unreached in proctype p_main
+	(0 of 22 states)
+
+pan: elapsed time 0.01 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 164 byte, depth reached 222, errors: 0
+     1904 states, stored
+     1744 states, matched
+     3648 transitions (= stored+matched)
+      670 atomic steps
+
+hash factor: 275.361 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 203357
+
+Stats on memory usage (in Megabytes):
+    0.334	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.062	memory used for hash array (-w19)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.077	total actual memory usage
+
+
+unreached in proctype p_watch
+	_modex_all.pml:36, state 31, "-end-"
+	(1 of 31 states)
+unreached in proctype p_increment
+	_modex_all.pml:72, state 17, " Pp_increment->i++; "
+	_modex_all.pml:78, state 26, "-end-"
+	(2 of 26 states)
+unreached in proctype p_main
+	(0 of 22 states)
+
+pan: elapsed time 0 seconds

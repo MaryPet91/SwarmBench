@@ -1,0 +1,614 @@
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 248 byte, depth reached 503, errors: 0
+     1780 states, stored
+      702 states, matched
+     2482 transitions (= stored+matched)
+       33 atomic steps
+
+hash factor: 150806 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 2744
+
+Stats on memory usage (in Megabytes):
+    0.455	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   33.175	total actual memory usage
+
+
+unreached in proctype _client
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:48, state 19, "currentLabel = 3"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:52, state 21, "currentLabel = 4"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:53, state 22, "lk = 1"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:104, state 60, "currentLabel = 12"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:105, state 61, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:106, state 62, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:109, state 65, "-end-"
+	(7 of 65 states)
+unreached in proctype _server
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:184, state 42, "currentLabel = 7"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:232, state 78, "currentLabel = 15"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:233, state 79, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:234, state 80, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:237, state 83, "-end-"
+	(5 of 83 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:264, state 11, "-end-"
+	(1 of 11 states)
+unreached in init
+	(0 of 7 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 248 byte, depth reached 537, errors: 0
+     1693 states, stored
+      649 states, matched
+     2342 transitions (= stored+matched)
+       30 atomic steps
+
+hash factor: 158556 (best if > 100.)
+
+bits set per state: 3 (-k3)
+random seed used: 65802
+
+Stats on memory usage (in Megabytes):
+    0.433	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   33.175	total actual memory usage
+
+
+unreached in proctype _client
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:48, state 19, "currentLabel = 3"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:52, state 21, "currentLabel = 4"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:53, state 22, "lk = 1"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:104, state 60, "currentLabel = 12"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:105, state 61, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:106, state 62, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:109, state 65, "-end-"
+	(7 of 65 states)
+unreached in proctype _server
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:184, state 42, "currentLabel = 7"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:232, state 78, "currentLabel = 15"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:233, state 79, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:234, state 80, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:237, state 83, "-end-"
+	(5 of 83 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:264, state 11, "-end-"
+	(1 of 11 states)
+unreached in init
+	(0 of 7 states)
+
+pan: elapsed time 0.01 seconds
+error: max search depth too small
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 248 byte, depth reached 127, errors: 0
+      521 states, stored
+      201 states, matched
+      722 transitions (= stored+matched)
+       13 atomic steps
+
+hash factor: 515231 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 184337
+
+Stats on memory usage (in Megabytes):
+    0.133	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.001	memory used for bit stack
+    0.009	memory used for DFS stack (-m128)
+   32.195	total actual memory usage
+
+
+unreached in proctype _client
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:48, state 19, "currentLabel = 3"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:52, state 21, "currentLabel = 4"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:53, state 22, "lk = 1"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:104, state 60, "currentLabel = 12"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:105, state 61, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:106, state 62, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:109, state 65, "-end-"
+	(7 of 65 states)
+unreached in proctype _server
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:184, state 42, "currentLabel = 7"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:232, state 78, "currentLabel = 15"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:233, state 79, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:234, state 80, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:237, state 83, "-end-"
+	(5 of 83 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:264, state 11, "-end-"
+	(1 of 11 states)
+unreached in init
+	(0 of 7 states)
+
+pan: elapsed time 0 seconds
+error: max search depth too small
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 248 byte, depth reached 127, errors: 0
+      402 states, stored
+      173 states, matched
+      575 transitions (= stored+matched)
+       11 atomic steps
+
+hash factor: 667750 (best if > 100.)
+
+bits set per state: 3 (-k3)
+random seed used: 26630
+
+Stats on memory usage (in Megabytes):
+    0.103	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.001	memory used for bit stack
+    0.009	memory used for DFS stack (-m128)
+   32.195	total actual memory usage
+
+
+unreached in proctype _client
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:48, state 19, "currentLabel = 3"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:52, state 21, "currentLabel = 4"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:53, state 22, "lk = 1"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:89, state 52, "currentLabel = 9"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:104, state 60, "currentLabel = 12"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:105, state 61, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:106, state 62, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:109, state 65, "-end-"
+	(8 of 65 states)
+unreached in proctype _server
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:184, state 42, "currentLabel = 7"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:232, state 78, "currentLabel = 15"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:233, state 79, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:234, state 80, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:237, state 83, "-end-"
+	(5 of 83 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:264, state 11, "-end-"
+	(1 of 11 states)
+unreached in init
+	(0 of 7 states)
+
+pan: elapsed time 0.01 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 248 byte, depth reached 472, errors: 0
+     1765 states, stored
+      735 states, matched
+     2500 transitions (= stored+matched)
+       31 atomic steps
+
+hash factor: 152088 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 181058
+
+Stats on memory usage (in Megabytes):
+    0.451	equivalent memory usage for states (stored*(State-vector + overhead))
+   32.000	memory used for hash array (-w28)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+   33.175	total actual memory usage
+
+
+unreached in proctype _client
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:48, state 19, "currentLabel = 3"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:52, state 21, "currentLabel = 4"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:53, state 22, "lk = 1"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:104, state 60, "currentLabel = 12"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:105, state 61, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:106, state 62, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:109, state 65, "-end-"
+	(7 of 65 states)
+unreached in proctype _server
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:184, state 42, "currentLabel = 7"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:232, state 78, "currentLabel = 15"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:233, state 79, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:234, state 80, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:237, state 83, "-end-"
+	(5 of 83 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:264, state 11, "-end-"
+	(1 of 11 states)
+unreached in init
+	(0 of 7 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 248 byte, depth reached 467, errors: 0
+     1690 states, stored
+      675 states, matched
+     2365 transitions (= stored+matched)
+       31 atomic steps
+
+hash factor: 39709.4 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 21238
+
+Stats on memory usage (in Megabytes):
+    0.432	equivalent memory usage for states (stored*(State-vector + overhead))
+    8.000	memory used for hash array (-w26)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    9.175	total actual memory usage
+
+
+unreached in proctype _client
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:48, state 19, "currentLabel = 3"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:52, state 21, "currentLabel = 4"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:53, state 22, "lk = 1"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:104, state 60, "currentLabel = 12"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:105, state 61, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:106, state 62, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:109, state 65, "-end-"
+	(7 of 65 states)
+unreached in proctype _server
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:184, state 42, "currentLabel = 7"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:232, state 78, "currentLabel = 15"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:233, state 79, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:234, state 80, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:237, state 83, "-end-"
+	(5 of 83 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:264, state 11, "-end-"
+	(1 of 11 states)
+unreached in init
+	(0 of 7 states)
+
+pan: elapsed time 0.01 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 248 byte, depth reached 450, errors: 0
+     1723 states, stored
+      656 states, matched
+     2379 transitions (= stored+matched)
+       30 atomic steps
+
+hash factor: 9737.21 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 89171
+
+Stats on memory usage (in Megabytes):
+    0.440	equivalent memory usage for states (stored*(State-vector + overhead))
+    2.000	memory used for hash array (-w24)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    3.077	total actual memory usage
+
+
+unreached in proctype _client
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:48, state 19, "currentLabel = 3"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:52, state 21, "currentLabel = 4"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:53, state 22, "lk = 1"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:104, state 60, "currentLabel = 12"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:105, state 61, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:106, state 62, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:109, state 65, "-end-"
+	(7 of 65 states)
+unreached in proctype _server
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:184, state 42, "currentLabel = 7"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:232, state 78, "currentLabel = 15"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:233, state 79, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:234, state 80, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:237, state 83, "-end-"
+	(5 of 83 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:264, state 11, "-end-"
+	(1 of 11 states)
+unreached in init
+	(0 of 7 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 248 byte, depth reached 528, errors: 0
+     1662 states, stored
+      598 states, matched
+     2260 transitions (= stored+matched)
+       29 atomic steps
+
+hash factor: 5047.3 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 76016
+
+Stats on memory usage (in Megabytes):
+    0.425	equivalent memory usage for states (stored*(State-vector + overhead))
+    1.000	memory used for hash array (-w23)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    2.175	total actual memory usage
+
+
+unreached in proctype _client
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:48, state 19, "currentLabel = 3"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:52, state 21, "currentLabel = 4"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:53, state 22, "lk = 1"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:104, state 60, "currentLabel = 12"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:105, state 61, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:106, state 62, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:109, state 65, "-end-"
+	(7 of 65 states)
+unreached in proctype _server
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:184, state 42, "currentLabel = 7"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:232, state 78, "currentLabel = 15"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:233, state 79, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:234, state 80, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:237, state 83, "-end-"
+	(5 of 83 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:264, state 11, "-end-"
+	(1 of 11 states)
+unreached in init
+	(0 of 7 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 248 byte, depth reached 512, errors: 0
+     1798 states, stored
+      748 states, matched
+     2546 transitions (= stored+matched)
+       31 atomic steps
+
+hash factor: 2332.76 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 35317
+
+Stats on memory usage (in Megabytes):
+    0.460	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.500	memory used for hash array (-w22)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.675	total actual memory usage
+
+
+unreached in proctype _client
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:48, state 19, "currentLabel = 3"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:52, state 21, "currentLabel = 4"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:53, state 22, "lk = 1"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:104, state 60, "currentLabel = 12"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:105, state 61, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:106, state 62, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:109, state 65, "-end-"
+	(7 of 65 states)
+unreached in proctype _server
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:184, state 42, "currentLabel = 7"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:232, state 78, "currentLabel = 15"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:233, state 79, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:234, state 80, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:237, state 83, "-end-"
+	(5 of 83 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:264, state 11, "-end-"
+	(1 of 11 states)
+unreached in init
+	(0 of 7 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 248 byte, depth reached 457, errors: 0
+     1677 states, stored
+      627 states, matched
+     2304 transitions (= stored+matched)
+       33 atomic steps
+
+hash factor: 1250.54 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 24359
+
+Stats on memory usage (in Megabytes):
+    0.429	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.250	memory used for hash array (-w21)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.425	total actual memory usage
+
+
+unreached in proctype _client
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:48, state 19, "currentLabel = 3"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:52, state 21, "currentLabel = 4"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:53, state 22, "lk = 1"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:104, state 60, "currentLabel = 12"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:105, state 61, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:106, state 62, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:109, state 65, "-end-"
+	(7 of 65 states)
+unreached in proctype _server
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:184, state 42, "currentLabel = 7"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:232, state 78, "currentLabel = 15"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:233, state 79, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:234, state 80, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:237, state 83, "-end-"
+	(5 of 83 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:264, state 11, "-end-"
+	(1 of 11 states)
+unreached in init
+	(0 of 7 states)
+
+pan: elapsed time 0 seconds
+
+(Spin Version 6.4.8 -- 2 March 2018)
+	+ Partial Order Reduction
+	+ Reverse Depth-First Search Order
+	+ Reverse Transition Ordering
+	+ Randomized Transition Ordering
+	+ Randomized Process Ordering
+
+Bit statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 248 byte, depth reached 504, errors: 0
+     1608 states, stored
+      658 states, matched
+     2266 transitions (= stored+matched)
+       32 atomic steps
+
+hash factor: 326.05 (best if > 100.)
+
+bits set per state: 1 (-k1)
+random seed used: 203357
+
+Stats on memory usage (in Megabytes):
+    0.411	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.062	memory used for hash array (-w19)
+    0.076	memory used for bit stack
+    0.687	memory used for DFS stack (-m10000)
+    1.175	total actual memory usage
+
+
+unreached in proctype _client
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:48, state 19, "currentLabel = 3"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:52, state 21, "currentLabel = 4"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:53, state 22, "lk = 1"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:104, state 60, "currentLabel = 12"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:105, state 61, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:106, state 62, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:109, state 65, "-end-"
+	(7 of 65 states)
+unreached in proctype _server
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:184, state 42, "currentLabel = 7"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:232, state 78, "currentLabel = 15"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:233, state 79, "v0 = retval"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:234, state 80, "return!v0"
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:237, state 83, "-end-"
+	(5 of 83 states)
+unreached in proctype _main
+	/home/mary/tacs/Swarm-Project/script/spin/workspace/wakeup/wakeup3/wakeup3.pml:264, state 11, "-end-"
+	(1 of 11 states)
+unreached in init
+	(0 of 7 states)
+
+pan: elapsed time 0 seconds

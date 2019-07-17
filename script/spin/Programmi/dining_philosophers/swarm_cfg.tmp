@@ -1,0 +1,32 @@
+## Swarm Version 3.0 -- 16 August 2010
+#
+# range
+k	1	5
+
+# limits
+d	10000
+cpus	4	
+memory	512M
+time	60m
+hash	1.5
+vector	512
+speed	250000
+file	dining_philosophers.pml
+
+# compilation options
+-DBITSTATE -DPUTPID             # basic dfs
+-DBITSTATE -DPUTPID -DREVERSE   # reversed transition ordering
+-DBITSTATE -DPUTPID -DT_REVERSE # reversed process ordering
+-DBITSTATE -DPUTPID -DREVERSE -DT_REVERSE       # both
+-DBITSTATE -DPUTPID -DP_RAND -DT_RAND   # same series with randomization
+-DBITSTATE -DPUTPID -DP_RAND -DT_RAND -DT_REVERSE
+-DBITSTATE -DPUTPID -DP_RAND -DT_RAND -DREVERSE
+-DBITSTATE -DPUTPID -DP_RAND -DT_RAND -DREVERSE -DT_REVERSE
+
+
+# runtime options (one line only)
+-c1 -x -n
+
+# spin options other than -a (one line only)
+
+
