@@ -4,5 +4,5 @@ Project for the course of Automatic Techniques for Software Correctness 2018/201
 
 ## Authors 
 
-Mariangela Petraglia
-Claudia Pipino
+- Mariangela Petraglia
+- Claudia Pipino
